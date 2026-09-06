@@ -1,0 +1,115 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Contact TechWise Hub for questions, corrections, suggestions and business enquiries.">
+  <title>Contact TechWise Hub</title>
+  <link rel="stylesheet" href="styles.css">
+</head><body><header class="site-header">
+  <div class="container nav">
+    <a class="brand" href="index.html">
+      <span>TW</span> TechWise Hub
+    </a><nav>
+  <a href="index.html">Home</a>
+  <a href="index.html#guides">Guides</a>
+  <a href="about.html">About</a>
+  <a href="contact.html">Contact</a>
+</nav>
+
+  </div>
+</header><main><section class="hero">
+  <div class="container">
+    <p class="eyebrow">GET IN TOUCH</p><h1>Contact TechWise Hub.</h1>
+
+<p class="lead">
+  Have a question, suggestion, correction, or business enquiry?
+  We'd be happy to hear from you.
+</p>
+
+  </div>
+</section><section class="container section about">  <p class="eyebrow">CONTACT US</p>  <h2>How can we help?</h2>  <p>
+    If you have a question about one of our guides, found an
+    information error, have a topic suggestion, or would like to
+    discuss a business opportunity, you can contact TechWise Hub.
+  </p>  <div class="cards"><article class="card">
+  <span class="tag">Questions</span>
+  <h3>General enquiries</h3>
+  <p>
+    Contact us with questions about our website, guides and
+    technology content.
+  </p>
+</article>
+
+<article class="card">
+  <span class="tag">Corrections</span>
+  <h3>Found an error?</h3>
+  <p>
+    If you notice information that needs to be corrected or
+    updated, please let us know.
+  </p>
+</article>
+
+<article class="card">
+  <span class="tag">Business</span>
+  <h3>Business enquiries</h3>
+  <p>
+    We welcome relevant partnership, advertising and other
+    technology-related business enquiries.
+  </p>
+</article>
+
+  </div>  <h2>Send us a message</h2>  <form onsubmit="return sendMessage(event)"
+        style="max-width:700px;margin-top:25px;"><label for="name">Name</label>
+<input id="name"
+       type="text"
+       placeholder="Your name"
+       required
+       style="display:block;width:100%;padding:14px;margin:8px 0 18px;border:1px solid #e8ecf2;border-radius:9px;">
+
+<label for="contactEmail">Email</label>
+<input id="contactEmail"
+       type="email"
+       placeholder="you@example.com"
+       required
+       style="display:block;width:100%;padding:14px;margin:8px 0 18px;border:1px solid #e8ecf2;border-radius:9px;">
+
+<label for="message">Message</label>
+<textarea id="message"
+          rows="6"
+          placeholder="Write your message..."
+          required
+          style="display:block;width:100%;padding:14px;margin:8px 0 18px;border:1px solid #e8ecf2;border-radius:9px;resize:vertical;"></textarea>
+
+<button type="submit"
+        style="background:#111827;color:#fff;border:0;border-radius:10px;padding:13px 20px;font-weight:700;cursor:pointer;">
+  Send message
+</button>
+
+<p id="contactMessage" class="small"></p>
+
+  </form>  <p style="margin-top:35px;">
+    <strong>Note:</strong> This contact form is currently a website
+    interface. Before launch, connect it to a real email or form
+    service so submitted messages can actually be received.
+  </p></section></main><footer>
+  <div class="container footer">
+    <span>
+      © <span id="year"></span> TechWise Hub
+    </span><span>
+  Built for useful, original content.
+</span>
+
+  </div>
+</footer><script src="script.js"></script><script>
+function sendMessage(event) {
+  event.preventDefault();
+
+  document.getElementById("contactMessage").textContent =
+    "Thanks! Your message form is ready. Connect a form service before launch so messages can be received.";
+
+  return false;
+}
+</script></body>
+  </html>
