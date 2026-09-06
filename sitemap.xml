@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url><loc>https://YOUR-DOMAIN.com/</loc></url>
-<url><loc>https://YOUR-DOMAIN.com/guides/choosing-a-budget-phone.html</loc></url>
-<url><loc>https://YOUR-DOMAIN.com/guides/free-up-android-storage.html</loc></url>
-<url><loc>https://YOUR-DOMAIN.com/guides/ssd-vs-hdd.html</loc></url>
-<url><loc>https://YOUR-DOMAIN.com/guides/spot-suspicious-apps.html</loc></url>
-<url><loc>https://YOUR-DOMAIN.com/guides/public-wifi-safety.html</loc></url>
-<url><loc>https://YOUR-DOMAIN.com/guides/free-tools-for-students.html</loc></url>
-</urlset>
+
+  <url>
+    <loc>https://jonasanim58-source.github.io/techwise-hub/</loc>
+  </url>
+
+  <url>
+    <loc>https://jonasanim58-source.github.io/techwise-hub/about.html</loc>
+  </url>
+
+  <url>
+    <loc>https://jonasanim58-source.github.io/techwise-hub/contact.html</loc>
+  </url>
