@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://YOUR-DOMAIN.com/sitemap.xml
+Sitemap: https://jonasanim58-source.github.io/techwise-hub/sitemap.xml
