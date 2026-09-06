@@ -1,0 +1,2 @@
+document.getElementById("year").textContent=new Date().getFullYear();
+function subscribe(e){e.preventDefault();const email=document.getElementById("email").value;document.getElementById("formMessage").textContent=`Thanks! ${email} was added to the demo list. Connect this form to your email service before launch.`;return false;}

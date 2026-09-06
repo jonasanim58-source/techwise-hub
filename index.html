@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Practical, beginner-friendly guides for choosing tech products, apps and online tools.">
+<meta name="theme-color" content="#0f172a">
+<title>TechWise Hub — Practical Tech Guides</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container nav">
+    <a class="brand" href="index.html"><span>TW</span> TechWise Hub</a>
+    <nav><a href="index.html">Home</a><a href="#guides">Guides</a><a href="#about">About</a></nav>
+  </div>
+</header>
+
+<main>
+<section class="hero">
+  <div class="container hero-grid">
+    <div>
+      <p class="eyebrow">SMARTER TECH • SIMPLER DECISIONS</p>
+      <h1>Practical tech advice without the confusion.</h1>
+      <p class="lead">Straightforward guides, comparisons and how-tos that help everyday users choose tools and solve common technology problems.</p>
+      <a class="button" href="#guides">Explore guides</a>
+    </div>
+    <div class="hero-card">
+      <p class="eyebrow">START HERE</p>
+      <h2>What should I buy?</h2>
+      <p>Learn how to compare specifications, avoid misleading marketing and choose technology based on how you actually use it.</p>
+      <a href="guides/choosing-a-budget-phone.html">Read the phone buying guide →</a>
+    </div>
+  </div>
+</section>
+
+<section class="container section" id="guides">
+  <div class="section-head"><div><p class="eyebrow">LATEST GUIDES</p><h2>Useful answers</h2></div></div>
+  <div class="cards">
+    <article class="card"><span class="tag">Buying guide</span><h3>How to Choose a Budget Android Phone</h3><p>Understand RAM, storage, processors, cameras and battery life before buying.</p><a href="guides/choosing-a-budget-phone.html">Read guide →</a></article>
+    <article class="card"><span class="tag">How-to</span><h3>How to Free Up Storage on Android</h3><p>Safe ways to reclaim space without deleting important photos or files.</p><a href="guides/free-up-android-storage.html">Read guide →</a></article>
+    <article class="card"><span class="tag">Buying guide</span><h3>SSD vs HDD: Which One Should You Buy?</h3><p>A simple comparison for laptops, desktops and external storage.</p><a href="guides/ssd-vs-hdd.html">Read guide →</a></article>
+    <article class="card"><span class="tag">Security</span><h3>How to Spot a Suspicious App</h3><p>Practical checks for permissions, reviews, publishers and downloads.</p><a href="guides/spot-suspicious-apps.html">Read guide →</a></article>
+    <article class="card"><span class="tag">Internet</span><h3>How to Make Public Wi-Fi Safer</h3><p>Simple habits that reduce risk when using Wi-Fi away from home.</p><a href="guides/public-wifi-safety.html">Read guide →</a></article>
+    <article class="card"><span class="tag">Productivity</span><h3>Best Free Tools for Students</h3><p>A practical starter list for notes, files, documents and studying.</p><a href="guides/free-tools-for-students.html">Read guide →</a></article>
+  </div>
+</section>
+
+<section class="newsletter">
+  <div class="container newsletter-inner">
+    <div><p class="eyebrow">WEEKLY TECH NOTES</p><h2>Useful tips. No spam.</h2><p>Connect this form to your email provider when you are ready to collect subscribers.</p></div>
+    <form onsubmit="return subscribe(event)"><input id="email" type="email" placeholder="you@example.com" required><button>Subscribe</button></form>
+    <p id="formMessage" class="small"></p>
+  </div>
+</section>
+
+<section class="container section about" id="about">
+  <p class="eyebrow">ABOUT TECHWISE HUB</p>
+  <h2>Independent, practical and beginner-friendly.</h2>
+  <p>TechWise Hub is designed around useful search questions: what to buy, how to fix common problems and how to use everyday technology more effectively.</p>
+</section>
+</main>
+
+<footer><div class="container footer"><span>© <span id="year"></span> TechWise Hub</span><span>Built for useful, original content.</span></div></footer>
+<script src="script.js"></script>
+</body>
+</html>
